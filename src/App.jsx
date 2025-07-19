@@ -27,7 +27,7 @@ export default function App() {
       <div className="max-w-4xl mx-auto backdrop-blur-md bg-white/10 dark:bg-white/5 border border-gray-200 dark:border-gray-700 shadow-xl rounded-3xl p-8 transition-all">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight flex items-center gap-2">
-            💱 <span>Currency Tracker</span>
+            💱 <span>CurrenSync</span>
           </h1>
           <button
             onClick={() => setDarkMode(!darkMode)}
@@ -46,7 +46,7 @@ export default function App() {
       </div>
 
       <footer className="text-center mt-10 text-sm opacity-60">
-        Built with ❤️ by You. Powered by Fixer API.
+        Built with ❤️ by Ripak. Powered by Fixer API.
       </footer>
     </div>
   );
