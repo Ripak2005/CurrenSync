@@ -28,7 +28,7 @@
 
 ## 🚀 Demo
 
-> Live link: [https://curren-sync-lac.vercel.app/](#)
+> Live link: [https://curren-sync-lac.vercel.app/]
 
 ---
 
