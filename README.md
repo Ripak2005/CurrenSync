@@ -42,17 +42,26 @@
 | localStorage| Persistent Favorites                |
 
 ---
-src/
-├── components/
-│   ├── Converter.jsx
-│   ├── Chart.jsx
-│   ├── Favorites.jsx
-│   └── Insight.jsx
-├── App.jsx
-├── main.jsx
-public/
-tailwind.config.js
-vite.config.js
+currency-tracker/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/                 # 🎨 Images, icons, etc.
+│   ├── components/             # ⚛️ Reusable components
+│   │   ├── Converter.jsx       # 💱 Currency conversion logic
+│   │   ├── Chart.jsx           # 📈 Currency trends (optional)
+│   │   ├── Favorites.jsx       # ❤️ Favorite conversions
+│   │   └── Insight.jsx         # 🧠 Smart insights (e.g. base stats)
+│   ├── App.jsx                 # 🧩 Main app layout and routes
+│   ├── main.jsx                # 🚀 Entry point for Vite + React
+│   └── index.css (optional)   # 🎨 Tailwind (or skip if using darkMode in code)
+├── .env                        # 🔐 Fixer API Key
+├── tailwind.config.js         # 🎛️ Tailwind config
+├── postcss.config.js          # 🛠️ Tailwind/PostCSS support
+├── vite.config.js             # ⚡ Vite bundler config
+├── package.json               # 📦 Project metadata
+└── README.md                  # 📘 Project documentation
+
 
 ---
 
